@@ -1,0 +1,48 @@
+1.
+a. Dado um array de inteiros a, com 4 elementos, a = [ 3 -2 0 4 ], 
+determine o resultado da instrução:
+
+printf(“posicao=%d”,analise(4,0,a)+1)
+
+posicao=
+
+
+
+
+b. Explique o funcionamento da função analise, referindo os valores que devolve em consequência dos possíveis
+valores dos parâmetros n, chave, t.
+
+int analise(int n, int chave, int *t) {
+ int i = 0;
+ while (t[i] != chave && i <= n-1)
+    i++;
+ if(i > n-1)
+    return -1;
+ else
+    return i; } 
+
+
+A função analise faz uma pesquisa num array de inteiros t para encontrar a posição da primeira 
+ocorrência do valor chave.
+
+
+
+2. Desenvolva uma função que calcule a soma, a média e o máximo de um conjunto de números inteiros inseridos
+pelo utilizador, terminando a inserção, quando for especificado o valor 0. O programa deve devolver os valores
+calculados, bem como o número de valores inseridos. 
+
+4. Desenvolva uma função que calcule que calcule o somatório ∑ 𝑖
+௡ିଵ
+௜ୀିଵ , apresentando o resultado no ecrã. Faça o
+cálculo, de duas formas diferentes: usando ciclo for e outro ciclo. 
+
+8. 
+O programa solicita ao usuário para inserir um número.
+O usuário insere 4.
+O programa então entra no loop for onde i varia de 1 a 4.
+Durante cada iteração do loop, a variável sum acumula a soma dos números de 1 a 4, e a variável prod acumula o produto desses números.
+Após o loop, o programa imprime a soma e o produto calculados.
+A saída seria:
+Insira um número: 4
+A Soma=10; o Produto=24
+Portanto, a soma dos números de 1 a 4 é 10, e o produto desses números é 24.
