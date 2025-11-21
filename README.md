@@ -1,6 +1,8 @@
 # LEI-AP
 Repository for the Algorithms and Programming Curricular Unit
 
+## 📁 **Contents**
+
 **Programming Theory - basics:**
 - Introduction to Programming and its objectives;
 - Programming languages;
@@ -25,7 +27,7 @@ Repository for the Algorithms and Programming Curricular Unit
 **Study and application of Recursion**
 **Sorting and searching algorithms in tables (arrays)**
 
-**sorting algorithms:**
+**Sorting algorithms:**
 - simple (e.g., Insertion Sort, Selection Sort, Bubble Sort);
 - advanced (e.g., Shell Sort);
 - allusion to other sorting algorithms.
